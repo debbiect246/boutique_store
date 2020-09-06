@@ -1,3 +1,4 @@
+'''urls for product detail page'''
 from django.urls import path
 from . import views
 
