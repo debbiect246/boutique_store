@@ -1,11 +1,9 @@
+'''created context processor for shopping bag items'''
 from decimal import Decimal
 from django.conf import settings
 
-''' function for bag contexts and set up context processor items'''
-
 
 def bag_contents(request):
-
     bag_items = []
     total = 0
     product_count = 0
