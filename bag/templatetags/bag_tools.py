@@ -1,3 +1,4 @@
+''' filters on subtotal'''
 from django import template
 
 
