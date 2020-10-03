@@ -1,3 +1,4 @@
+'''models for products in database'''
 from django.db import models
 
 
